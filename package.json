@@ -1,0 +1,31 @@
+{
+  "name": "require-esm-as-empty-object",
+  "version": "0.0.0",
+  "description": "Require ES Modules as an Empty Object. A workaround for \"Error [ERR_REQUIRE_ESM]: require() of ES Module not supported.\"",
+  "main": "./require-esm-as-empty-object.js",
+  "scripts": {
+    "test:rflag": "node -r ./require-esm-as-empty-object.js test.rflag.js",
+    "test:rtop": "node test.rtop.js",
+    "test": "npm run test:rflag && npm run test:rtop"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielJDufour/require-esm-as-empty-object.git"
+  },
+  "keywords": [
+    "esm",
+    "import",
+    "module",
+    "require"
+  ],
+  "author": "Daniel J. Dufour",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/DanielJDufour/require-esm-as-empty-object/issues"
+  },
+  "homepage": "https://github.com/DanielJDufour/require-esm-as-empty-object#readme",
+  "devDependencies": {
+    "flug": "^2.2.0",
+    "quick-lru": "^6.1.1"
+  }
+}
