@@ -6,6 +6,11 @@ A workaround for "Error [ERR_REQUIRE_ESM]: require() of ES Module not supported.
 ### how does it work?
 Intercepts failing `require(NAME_OF_ES_MODULE)` calls and returns `{}`.
 
+### install
+```bash
+npm install require-esm-as-empty-object
+```
+
 ### usage
 #### using r flag
 ```js
