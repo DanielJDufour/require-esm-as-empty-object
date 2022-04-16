@@ -3,6 +3,9 @@
   "version": "0.0.0",
   "description": "Require ES Modules as an Empty Object. A workaround for \"Error [ERR_REQUIRE_ESM]: require() of ES Module not supported.\"",
   "main": "./require-esm-as-empty-object.js",
+  "files": [
+    "require-esm-as-empty-object.js"
+  ],
   "scripts": {
     "test:rflag": "node -r ./require-esm-as-empty-object.js test.rflag.js",
     "test:rtop": "node test.rtop.js",
